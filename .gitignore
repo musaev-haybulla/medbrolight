@@ -1,0 +1,154 @@
+# Laravel Specific
+/node_modules
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/storage
+/vendor
+bootstrap/cache/*
+.env
+.env.*
+.phpunit.result.cache
+Homestead.yaml
+Homestead.json
+npm-debug.log*
+yarn-error.log*
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+.apdisk
+ehthumbs.db
+Thumbs.db
+
+# PHPStorm files
+.idea/
+*.iml
+
+# Composer related
+composer.lock
+/vendor/
+/vendor/autoload.php
+
+# Package backups
+*.gz
+*.zip
+*.rar
+
+# npm and yarn
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE related
+.vscode/
+.sublime-project
+.sublime-workspace
+nbproject/
+
+# PHPUnit
+/tests/_output/
+phpunit.xml
+
+# SQLite database
+*.sqlite
+*.db
+
+# Temporary files
+*.swp
+*.swo
+*.swn
+*.tmp
+*~
+
+# Backup files
+*.bak
+
+# macOS specific files
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.LSOverride
+
+# macOS quarantine files
+com.apple.quarantine
+
+# macOS resource forks
+._*
+
+# macOS system files
+.DS_Store
+.Spotlight-V100
+.TemporaryItems
+.TheVolumeSettingsFolder
+.Trash
+.VolumeIcon.icns
+.fseventsd
+ehthumbs.db
+Thumbs.db
+
+# macOS Finder metadata
+.metadata_never_index
+
+# macOS application bundles
+*.app
+*.pkg
+
+# macOS system directories
+/Applications/
+/Library/
+/System/
+/Volumes/
+/Users/Shared/
+/private/var/folders/
+
+# macOS user-specific directories (exclude only if necessary)
+# /Users/[YourUsername]/Desktop/
+# /Users/[YourUsername]/Documents/
+# /Users/[YourUsername]/Downloads/
+# /Users/[YourUsername]/Library/
+# /Users/[YourUsername]/Movies/
+# /Users/[YourUsername]/Music/
+# /Users/[YourUsername]/Pictures/
+# /Users/[YourUsername]/Public/
+
+# Laravel Sanctum
+/storage/oauth-private.key
+/storage/oauth-public.key
+
+# Laravel Passport
+/storage/app/public/keys/*
+
+# Logs
+/storage/logs/*.log
+
+# Cache
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+
+# Generated files
+/public/build/*
+/resources/js/build/*
+/resources/css/build/*
+
+# Docker
+.dockerignore
+docker-compose.yml
+
+# Telescope
+/storage/telescope/*
+
+# Envoy
+Envoy.blade.php
+
+# Breeze and Jetstream specific files
+/resources/js/ssr.js
+/storage/app/profile-photos/*
